@@ -1,0 +1,21 @@
+{
+    "name": "nikita-awesome-colors",
+    "displayName": "nikita-awesome-colors",
+    "description": "my awesome colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "nikita-colors",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nikita-colors-color-theme.json"
+            }
+        ]
+    }
+}

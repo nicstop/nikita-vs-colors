@@ -1,0 +1,267 @@
+{
+	"name": "nikita-colors",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#2b2b2b",
+		"editor.foreground": "#b5b5aa",
+		"editor.lineHighlightBorder": "#3b3b3b",
+		"activityBarBadge.background": "#15242e",
+		"sideBarTitle.foreground": "#2b2b2b"
+	},
+	"tokenColors": [
+		{
+			"name": "Pragma",
+			"scope": [
+				"entity.other.attribute-name.pragma.preprocessor.c"
+			],
+			"settings": {
+				"foreground": "#b5b5aa"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#8a8a81"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"string constant.other.placeholder"
+			],
+			"settings": {
+				"foreground": "#b5b5aa"
+			}
+		},
+		{
+			"name": "Colors",
+			"scope": [
+				"constant.other.color"
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": [
+				"invalid",
+				"invalid.illegal"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "Operator, Misc",
+			"scope": [
+				"constant.other.color",
+				"punctuation",
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.inheritance.php",
+				"punctuation.definition.tag.html",
+				"punctuation.definition.tag.begin.html",
+				"punctuation.definition.tag.end.html",
+				"punctuation.section.embedded",
+			],
+			"settings": {
+				"foreground": "#b5b5aa"
+			}
+		},
+		{
+			"name": "Tag",
+			"scope": [
+				"entity.name.tag",
+				"meta.tag.sgml",
+				"markup.deleted.git_gutter"
+			],
+			"settings": {
+				"foreground": "#f07178"
+			}
+		},
+		{
+			"name": "Function, Special Method",
+			"scope": [
+				"entity.name.function",
+				"meta.function-call",
+				"variable.function",
+				"support.function",
+			],
+			"settings": {
+				"foreground": "#b5b5aa"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#b5b5aa"
+			}
+		},
+		{
+			"name": "Other Variable, String Link",
+			"scope": [
+				"support.other.variable",
+				"string.other.link"
+			],
+			"settings": {
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": [
+				"keyword",
+				"keyword.other.special-method",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#508a50"
+			}
+		},
+		{
+			"name": "Preprocessor",
+			"scope": [
+				"keyword.control.directive",
+			],
+			"settings": {
+				"foreground": "#b56f45"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": [
+				"keyword.operator",
+				"storage.modifier.pointer.cpp"
+			],
+			"settings": {
+				"foreground": "#b5b5aa"
+			}
+		},
+		{
+			"name": "Typedef",
+			"scope": [
+				"keyword.other.typedef.cpp"
+			],
+			"settings": {
+				"foreground": "#458a8a"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": [
+				"storage.type",
+				"storage.modifier",
+				"support.type",
+				"keyword.other.typedef.c"
+			],
+			"settings": {
+				"foreground": "#458a8a"
+			}
+		},
+		{
+			"name": "Struct, Enum Tags",
+			"scope": [
+				"entity.name.type.struct.cpp",
+				"entity.name.type.alias.cpp",
+				"entity.name.type.enum.cpp",
+				"meta.block.struct.cpp",
+				"support.type"
+			],
+			"settings": {
+				"foreground": "#b5b5aa"
+			}
+		},
+		{
+			"name": "Function Argument",
+			"scope": [
+				"variable.parameter",
+			],
+			"settings": {
+				"foreground": "#b5b5aa"
+			}
+		},
+		{
+			"name": "Number, Constant, Tag Attribute, Embedded",
+			"scope": [
+				"keyword.other.unit.hexadecimal.cpp",
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"constant.language.c"
+			],
+			"settings": {
+				"foreground": "#557b9e"
+			}
+		},
+		{
+			"name": "String, Symbols, Inherited Class, Markup Heading",
+			"scope": [
+				"string",
+				"constant.character.escape",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"constant.other.placeholder.c",
+				"punctuation.definition.string.begin.c",
+				"punctuation.definition.string.end.c",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+			],
+			"settings": {
+				"foreground": "#557b9e"
+			}
+		},
+		{
+			"name": "Inserted",
+			"scope": [
+				"markup.inserted"
+			],
+			"settings": {
+				"foreground": "#C3E88D"
+			}
+		},
+		{
+			"name": "Deleted",
+			"scope": [
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#FF5370"
+			}
+		},
+		{
+			"name": "URL",
+			"scope": [
+				"*url*",
+				"*link*",
+				"*uri*"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Changed",
+			"scope": [
+				"markup.changed"
+			],
+			"settings": {
+				"foreground": "#C792EA"
+			}
+		},
+	]
+}
