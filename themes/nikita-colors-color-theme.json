@@ -194,13 +194,15 @@
 		{
 			"name": "Number, Constant, Tag Attribute, Embedded",
 			"scope": [
+				"keyword.other.unit.suffix.floating-point.c",
 				"keyword.other.unit.hexadecimal.cpp",
+				"keyword.other.unit.hexadecimal.c",
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
 				"constant.character",
 				"constant.escape",
-				"constant.language.c"
+				"constant.language.c",
 			],
 			"settings": {
 				"foreground": "#557b9e"
